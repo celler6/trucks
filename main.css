@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+ *{
+	box-sizing: border-box;
+	}
+body{
+	background: url("images/-1x-1.jpg") no-repeat fixed top left; 	
+}
+#container{
+	width: 800px;
+	 Margin:0 auto;
+}
+.left {
+	width:380px;
+	height: 200px;
+	background-color: darkslategray;
+	border-radius: 25px;
+	float: left;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+	border: thick black solid;
+}
+
+.right{
+	width:380px;
+	height: 200px;
+	background-color: darkslategray;
+	border-radius: 25px;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 30px 30px 30px 30px;
+	border: thick black solid;
+	display: none
+}
+footer {
+	background-color: rgba(166,160,160,1.00);
+	clear: both;
+}
+header > h1{
+	text-align: center;
+	color:white;
+}
+#container .left{
+	background-color: grey;
+}
